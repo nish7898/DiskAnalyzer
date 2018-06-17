@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <a>Your current directory is   <%= dir %></a>
+        <br>
+        <br>
+        <table>
+            <% for(var i=0; i < display.length; i++) { %>
+                <tr>
+                  <td><%= display[i].name %> &nbsp</td>
+                  <td><%= display[i].storage %> Bytes &nbsp </td>
+                  <td><%= ((display[i].storage)/1024).toFixed(2) %> KB &nbsp </td>
+                  <td><%= ((display[i].storage)/1024/1024).toFixed(2) %> MB &nbsp </td>
+                </tr>
+             <% } %>
+        </table>
+        <br>
+        <form action="/child" method="POST">
+
+            <input class="box" type="text" name="name"  id="name" placeholder="Enter the Directory Name"  /><br><br>
+
+            <input type="submit" id="submitDetails"  name="submitDetails" value="Enter Directory" /><br>    
+        </form>
+        <form action="/parent" method="POST">
+
+            <input type="submit" id="submitDetails2"  name="submitDetails2" value="Travel to Parent Directory" /><br>    
+        </form>
+        </form>
+    </body>
+</html>
