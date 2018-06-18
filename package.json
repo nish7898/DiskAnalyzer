@@ -2,7 +2,7 @@
   "name": "heatweek2",
   "version": "1.0.0",
   "description": "",
-  "main": "githeatweek2.js",
+  "main": "diskanalyzer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
