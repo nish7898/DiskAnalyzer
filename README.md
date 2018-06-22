@@ -8,6 +8,6 @@ How to Run
 3.Run the command : npm install
 4.Now, run the command : node diskanalyzer.js
 5.Open a web browser and enter the URL : localhost:3000/
-6.The data of that directory, if you want to go to parent directory, click "Travel to Parent Directory". If you want to go to a certain folder it that directory, then enter the name of folder, and click "Enter Directory"
+6.The data of that directory is displayed, if you want to go to parent directory, click "Travel to Parent Directory". If you want to go to a certain folder it that directory, then enter the name of folder, and click "Enter Directory"
 
 Thankyou!
